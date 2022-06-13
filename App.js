@@ -1,11 +1,9 @@
 import * as React from 'react';
-import main from './navegacion/main';
+import MainS  from './navigation/MainS';
 
-
-function App(){
+console.disableYellowBox=true;
+export default function App(){
   return(
-    <main/>
+    <MainS/>
   );
 }
-
-export default App;
